@@ -1,6 +1,6 @@
 # Image-Classification-Using-SIFT-BOVW-SVM-and-Random-Forests
 
-Image Classification is performed using the concept of Bag of Visual Words as the feature extractor followed by 2 different classifiers i.e., Support Vector Machines and Random Forests. The feature descriptor used is Scale-Invariant Feature Transform (SIFT). The algorithm is evaluated on 2 different data sets. The performance is quantified using metrics like Accuracy Score, F-1 Score, True Positive Rates, and True Negative Rates.
+In this task, Image Classification is performed using the concept of Bag of Visual Words as the feature extractor followed by 2 different classifiers i.e., Support Vector Machines and Random Forests. The feature descriptor used is Scale-Invariant Feature Transform (SIFT). The algorithm is evaluated on 2 different data sets. The performance is quantified using metrics like Accuracy Score, F-1 Score, True Positive Rates, and True Negative Rates.
 
 ## Introduction
 Image Classification is a computer vision problem that involves assigning label(s) to an image based on its features. Bag of Visual Words is an image classification technique that represents an image as a histogram of the local features of the image. The feature descriptors are extracted using different feature extractors like SIFT, SURF, BRISK, etc. Once the features descriptors are extracted, clustering Algorithm is then applied to the feature descriptors to define the vocabulary. The centers of these clusters are the visual words in the vocabulary or the codebook. 
