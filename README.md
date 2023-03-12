@@ -12,8 +12,7 @@ The classifiers used are Support Vector Machines and Random Forests. In this rep
 ## Data Sets
 Two Data Sets have been used in this task. 
 1. The first dataset contains object images with 4 classes: Soccer Ball, Accordion, Dollar Bill, and MotorBike. The train set and test set has already been split. The train set contains 14 images per class making a total of 56 images, and the test set contains 2 images per class making a total of 8 images.
-2. The second dataset contains a total of 3670 flowers images with 5 classes: daisy (633 images), dandelion (898 images), roses (641 images), sunflowers (699 images), and tulips (799 images). The train set and test set is split by using the train\textunderscore test\textunderscore split function from sklearn.
-\end{itemize} 
+2. The second dataset contains a total of 3670 flowers images with 5 classes: daisy (633 images), dandelion (898 images), roses (641 images), sunflowers (699 images), and tulips (799 images). The train set and test set is split by using the train_test_split function from sklearn.
 
 ## Results
 The evaluation metrics used are Accuracy score, F1 score, true positive rate (TPR), and false positive rate (FPR). The classifiers are Support Vector Machines (SVM) and Random Forests (RF).
