@@ -18,33 +18,50 @@ Two Data Sets have been used in this task.
 ## Results
 The evaluation metrics used are Accuracy score, F1 score, true positive rate (TPR), and false positive rate (FPR). The classifiers are Support Vector Machines (SVM) and Random Forests (RF).
 1. Objects Data Set
+
 ![Evaluation Metric Scores on Objects DataSet](https://github.com/ReehaKhan/Image-Classification-Using-SIFT-BOVW-SVM-and-Random-Forests/blob/main/images/objects_metrics.jpg)
+
 2. Flowers Data Set
+
 ![Evaluation Metric Scores on Flowers DataSet](https://github.com/ReehaKhan/Image-Classification-Using-SIFT-BOVW-SVM-and-Random-Forests/blob/main/images/flowers_metrics.jpg)
+
 
 ### Few Correct and Incorrect Predictions
 1. Objects Data Set
+
     - SVM
-    Correctly Classified
+   
+        - Correctly Classified
     ![alt text](https://github.com/ReehaKhan/Image-Classification-Using-SIFT-BOVW-SVM-and-Random-Forests/blob/main/images/objects_svm_correct_pred.jpg)
-    Incorrectly Classified
+        - Incorrectly Classified   
     ![alt text](https://github.com/ReehaKhan/Image-Classification-Using-SIFT-BOVW-SVM-and-Random-Forests/blob/main/images/objects_svm_wrong_pred.jpg)
+    
+    
     - Random Forests
-    Correctly Classified
+    
+        - Correctly Classified
     ![alt text](https://github.com/ReehaKhan/Image-Classification-Using-SIFT-BOVW-SVM-and-Random-Forests/blob/main/images/objects_rf_correct_pred.jpg)
-    Incorrectly Classified
+        - Incorrectly Classified
     ![alt text](https://github.com/ReehaKhan/Image-Classification-Using-SIFT-BOVW-SVM-and-Random-Forests/blob/main/images/objects_rf_wrong_pred.jpg)
+    
+    
+    
 2. Flowers Data Set
+
     - SVM
-    Correctly Classified
+    
+        - Correctly Classified
     ![alt text](https://github.com/ReehaKhan/Image-Classification-Using-SIFT-BOVW-SVM-and-Random-Forests/blob/main/images/flowers_svm_correct_pred.jpg)
-    Incorrectly Classified
+        - Incorrectly Classified
     ![alt text](https://github.com/ReehaKhan/Image-Classification-Using-SIFT-BOVW-SVM-and-Random-Forests/blob/main/images/flowers_svm_wrong_pred.jpg)
+    
     - Random Forests
-    Correctly Classified
+    
+        - Correctly Classified
     ![alt text](https://github.com/ReehaKhan/Image-Classification-Using-SIFT-BOVW-SVM-and-Random-Forests/blob/main/images/flowers_rf_correct_pred.jpg)
-    Incorrectly Classified
+        - Incorrectly Classified
     ![alt text](https://github.com/ReehaKhan/Image-Classification-Using-SIFT-BOVW-SVM-and-Random-Forests/blob/main/images/flowers_rf_wrong_pred.jpg)
+    
 
 ## Conclusion
 Overall, it can be seen that since the Objects dataset was pretty small so the performance has been better in comparison to the Flowers dataset. Moreover, a surprising result was seen that Support Vector Machines performed similarly if not better than Random Forests. All in all, it can be said that Bag of Visual Words is a fairly good algorithm for image classification.
