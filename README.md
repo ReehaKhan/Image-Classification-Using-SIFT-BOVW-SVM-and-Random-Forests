@@ -13,7 +13,8 @@ In this task, 2 different data sets are used and for each the same pipeline is f
 ## Data Sets
 Two Data Sets have been used in this task. 
 1. The first dataset contains object images with 4 classes: Soccer Ball, Accordion, Dollar Bill, and MotorBike. The train set and test set has already been split. The train set contains 14 images per class making a total of 56 images, and the test set contains 2 images per class making a total of 8 images.
-2. The second dataset contains a total of 3670 flowers images with 5 classes: daisy (633 images), dandelion (898 images), roses (641 images), sunflowers (699 images), and tulips (799 images). The train set and test set is split by using the train_test_split function from sklearn.
+2. The second dataset contains a total of 3670 flowers images with 5 classes: daisy (633 images), dandelion (898 images), roses (641 images), sunflowers (699 images), and tulips (799 images). The train set and test set is split by using the train_test_split function from sklearn.  
+
 [Data Link](https://drive.google.com/drive/folders/1pashiwjX_g6bPr9OAZQnOFK6CljP8ElX?usp=sharing)
 
 ## Requirements
