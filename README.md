@@ -29,6 +29,8 @@ Two Data Sets have been used in this task.
 4. Run the Notebook to first train the model and then test on the given data set.
 5. The trained model can be used on other images as well.
 
+*If you encouter an error while displaying some correclty and incorrectly classified images, then try running the cell again. This may happen as the images are selected randomly and there is a chance that all randomly selected images are the ones that are correctly classified.
+
 ## Results
 The evaluation metrics used are Accuracy score, F1 score, true positive rate (TPR), and false positive rate (FPR). The classifiers are Support Vector Machines (SVM) and Random Forests (RF).
 1. Objects Data Set
