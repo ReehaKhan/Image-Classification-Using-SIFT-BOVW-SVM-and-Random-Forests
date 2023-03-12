@@ -9,6 +9,8 @@ Clustering Algorithm is then applied to the feature descriptors to define the vo
 Now, each image can be represented as the frequency of the visual words present in the image. This frequency is found by creating histograms for each image. This histogram representation of each image is then fed into the classifiers along with their true labels to train the classifier. When any new image is being tested, the image is first converted into the histogram representation which is then fed into the classifier to make a prediction.\\
 The classifiers used are Support Vector Machines and Random Forests. In this report, the effectiveness of Bag of Visual Words with SVMs and Random Forests for image classification is explored using two different data sets that are discussed in the next section. We compare the performance using metrics like accuracy, f1 score, true positive rates, and false positive rates which are discussed in the third section along with some correctly and incorrectly predicted images.
 
+![Methodology Diagram](https://github.com/ReehaKhan/Image-Classification-Using-SIFT-BOVW-SVM-and-Random-Forests/blob/main/images/flowchart.jpg)
+
 ## Data Sets
 Two Data Sets have been used in this task. 
 1. The first dataset contains object images with 4 classes: Soccer Ball, Accordion, Dollar Bill, and MotorBike. The train set and test set has already been split. The train set contains 14 images per class making a total of 56 images, and the test set contains 2 images per class making a total of 8 images.
