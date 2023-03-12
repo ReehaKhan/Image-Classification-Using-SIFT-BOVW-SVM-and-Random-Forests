@@ -23,7 +23,7 @@ Two Data Sets have been used in this task.
 - scikit-learn 1.2.1
 
 ## Steps to run the Notebook
-1. Download the Notebook (a preview of the file is not available on Github due to the file being heavy).
+1. Download the Notebook.
 2. Open the Notebook using Google Colab or Jupyter Notebook.
 3. Use the link of the data set shared to replace the paths of the dataset in the notebook.
 4. Run the Notebook to first train the model and then test on the given data set.
